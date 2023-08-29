@@ -1,0 +1,7 @@
+s = input()
+print("Find")
+s1 = input()
+print("Replace to")
+s2 = input()
+new = s.replace(s1, s2)
+print(new)
