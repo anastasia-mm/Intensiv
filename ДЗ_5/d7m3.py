@@ -3,7 +3,7 @@ n = int(input())
 matrix = [[random.randint(1, 9) for i in range(n)] for j in range(n)]
 for line in matrix:
     for column in line:
-        print("%4d" % column, end=' ')
+        print("%5d" % column, end=' ')
     print()
 print()
 x = 0
@@ -13,6 +13,6 @@ for i in range(n):
     x = x + 1
 for line in matrix:
     for column in line:
-        print("%4d" % column, end=' ')
+        print("%5d" % column, end=' ')
     print()
 print()
