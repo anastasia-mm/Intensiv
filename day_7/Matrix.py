@@ -6,7 +6,6 @@ print(matrix)
 sl = ''
 for i in range(n):
     for j in range(m):
-        sl += str(matrix[i][j])
-        sl += '  '
+        sl += str(matrix[i][j]) + '  '
     print(sl)
     sl = ''
