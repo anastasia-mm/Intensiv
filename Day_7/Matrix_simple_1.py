@@ -7,6 +7,7 @@ for line in matrix:
     for element in line:
         print("%4d" % element, end=' ')
     print()
+
 print()
 print('\n'.join([' '.join('{:{width}}'.format(element, width=4) for element in line) for line in matrix]))
 
