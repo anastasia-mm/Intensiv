@@ -10,3 +10,4 @@ while i < len(a):
     del(a[i])
     i += 1
 print(a)
+# haha
