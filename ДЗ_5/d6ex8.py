@@ -17,8 +17,3 @@ else:
         del s_1[-1*y]
         y = y + 1
 print(s_1)
-
-
-
-
-
